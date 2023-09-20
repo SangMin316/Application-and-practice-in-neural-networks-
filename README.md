@@ -41,3 +41,8 @@ train, val = train_test_split(DATA, test_size=0.2, random_state=123)
   + Train,Validation: npz files ('x':data, 'y' is label)
   + Test: npy files
 
+
+Drive
+
+https://drive.google.com/drive/folders/1Z9ppzu13x51wCnco49yvkfpQqIXmxPQ2?usp=sharing
+
