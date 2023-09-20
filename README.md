@@ -10,9 +10,7 @@ Sleep stage classification is one of the applications, it's a challenging proble
 ### Dataset description
 SleepEDF 20
 
-There are more detailed imformation.
-
-https://www.physionet.org/content/sleep-edfx/1.0.0/
+There are more detailed imformation. https://www.physionet.org/content/sleep-edfx/1.0.0/
 
 
 We only use 20 patient's data. Data consist of bio signals meaured 1 ~ 2 night. Similar to previous work, we use only two EEG signal and split signal to 30 seconds.
@@ -22,7 +20,7 @@ https://github.com/ycq091044/ManyDG/blob/main/data/sleep/sleep_edf_process.py
 
 
 Many previous work experiment leave one out cross validataion bacause highly patient variation (i.e, repeat 20 times using 19 patients as train data and the remaining one as test data).
-It's hard to share due to data capacity issues, so we use only five patient data. We 1 ~ 4 patient data split into train and validation set in the 8:2 ratio and 5 patient used test dataset.
+It's hard to share due to data capacity issues, so we use only five patient data. We patient 1 ~ 4 data split into train and validation set in the 8:2 ratio and patient 5 used test dataset.
 
 
 + Summary
