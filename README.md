@@ -33,11 +33,11 @@ train, val = train_test_split(DATA, test_size=0.2, random_state=123)
 
 
 + Summary
-  + Data shape is (2,3000) (2EEG, (30s* 100Hz))  
-  + Label : Wake, N1, N2, N3, REM
+  + Data shape: (2,3000) (2EEG, (30s* 100Hz))  
+  + Label: Wake, N1, N2, N3, REM
   + Train: 80% of patient 1 ~ 4
   + Validataion: 20% of patient 1~4 
   + Test: patient 5
-  + Train,Validation is npz files ('x':data, 'y' is label)
-  + Test is npy files
+  + Train,Validation: npz files ('x':data, 'y' is label)
+  + Test: npy files
 
